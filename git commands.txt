@@ -4,3 +4,8 @@ git commit -m "Initial commit"
 git remote add origin https://github.com/Luckygithubrit/java-problems.git
 git branch -M main
 git push -u origin main
+
+
+
+git pull origin master --rebase
+git push origin master
