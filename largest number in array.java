@@ -1,23 +1,28 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
 import java.util.*;
-class Lucky {
+class Main {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.println("enter the number:");
+        System.out.println("enter the size");
         int a=sc.nextInt();
+        System.out.println("enter the numbers");
         int arr[]=new int[a];
-        System.out.println("enyter the elements:");
-        int largest=arr[0];
-        for(int i=0;i<a;i++){
-            arr[i]=sc.nextInt();
-        }
-        for(int i=1;i<arr.length;i++){
-            if(arr[i]>largest){
-                largest=arr[i];
-            }
-        }
-        System.out.println("largest number is: "+largest);
-      
-        
+        // int i;
+        for(int i=0;i<arr.length;i++){
+        arr[i]=sc.nextInt();
         
     }
+    // int i;
+        int max=arr[0];
+        for(int i=1;i<arr.length-1;i++){
+            if(arr[i]>max){
+                max=arr[i];
+            }
+           
+        }
+         System.out.println("max number is:"+max);
+        }
+    
+    
 }
