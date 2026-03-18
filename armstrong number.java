@@ -1,3 +1,5 @@
+
+// armstrong number is a number that is equal to the sum of its own digits each raised to the power of the number of digits. For example, 153 is an armstrong number because 1^3 + 5^3 + 3^3 = 153.
 import java.util.*;
 class Lucky {
     public static void main(String[] args) {
