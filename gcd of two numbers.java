@@ -12,7 +12,7 @@ public class Main
 	   while(b!=0){
 	       int temp=b;
 	       b=a%b;
-	       a=temp;;
+	       a=temp;
 	   }
 	   System.out.println("gcd of "+a+" and "+b+" is : "+a);
 	    
